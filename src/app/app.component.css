@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+*:after, *:before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background: #eeeeee;
+}
+
+.logo-text-s{
+	font-family: 'Gungsuh', monospace;
+	margin: 1em 1.1em;
+	padding: .5em .9em;
+	float: left;
+	color: #fff;
+	border-radius: 0 1em;
+	transition: box-shadow 150ms linear;
+	cursor: pointer;
+	font-size: .8rem;
+}
+
+.logo-text-s:hover{
+	box-shadow: 0 5px 15px #ffffff;
+}
+
+.logo-text{
+	font-family: 'Gungsuh', monospace;
+	margin: 1em 1em;
+	padding: .4em .6em;
+	font-size: .7em;
+	float: right;
+	box-shadow: 0 5px 15px #eeeeee;
+	border-radius: 0 1em;
+}
+
+.navigation-bar{
+	display: flex;
+	height: 100vh;
+	width: 23vw;
+	background: #000;
+	float: right;
+	justify-content: center;
+	position: fixed;
+}
+
+.navigation-bar ul{
+	display: block;
+	list-style: none;
+}
+
+.navigation-bar ul li{
+	margin: 2rem 1rem;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.navigation-bar ul li a{
+	text-decoration: none;
+	color: #ffc926;
+	font-weight: 600;
+	transition: color 200ms linear;
+} 
+
+.navigation-bar ul li a:hover, .navigation-bar ul li a:focus{
+	color: #ffff73;
+	box-shadow: 0 0 5px #313140;
+}
+
+.nav-btn{
+	padding: .6em .85em;
+	margin-bottom: 1em;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-family: san-serif;
+	font-weight: 600;
+	font-size: .85em;
+	transition: box-shadow, outline 300ms ease-in;
+}
+
+.nav-btn:hover, .nav-btn:focus{
+	box-shadow: 0 2px 20px #ffc926;
+	border-radius: 0 10px 0 10px;
+	outline: 1px solid #ffc926;
+}
+
+article{
+	margin-left: 25vw;
+	padding: 2em 3em;
+}
+
+.title{
+	margin: 2em 0; 
+}
+
+.columns img{
+	width: 50vw;
+	margin: 1.4em .6em;
+	box-shadow: 0 5px 7px 6px #333;
+}
+
+.btn{
+	background: #333;
+	border-radius: 0 10px 0 10px;
+	margin: 2em 2em;
+	text-align: center;
+}
+
+@media screen (min-width: 700px){
+	.columns img{
+		width: 70vw;
+		height: 20vh;
+	}
+}
