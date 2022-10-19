@@ -1,4 +1,4 @@
-# Create new Angular project in this flder
+# Create new Angular project in this folder
 <code>ng new ..</code>
 
 # FirstApp
