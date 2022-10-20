@@ -3,7 +3,7 @@
 
 # FirstApp
 
-This project was generated with [Angular CLI]
+
 
 ## Development server
 
